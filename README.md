@@ -6,6 +6,8 @@ AngularJS lib for animation
 
 'use strict';
 
+/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*
+
 
 angular.module('ui.animator', ['ui.animator.spinner']);
 
