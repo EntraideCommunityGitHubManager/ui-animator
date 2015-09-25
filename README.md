@@ -6,43 +6,6 @@ AngularJS lib for animation
 
 'use strict';
 
-/*
-* ui.animator is a lib which expose different components in order to animate html element with different animation from libs/frameworks
-* and works with angularJS.
-*
-* The rule is the following :
-*
-* The components will interact on the element where it has been declared and on their children, it will change some css properties, so you
-* must use css class to decorate your components and children but never use directly the style attribute as it could be overridden.
-*
-* Don't do this : <button style="height:32px"></button> *
-* ui.animator is a lib which expose different components in order to animate html element with different animation from libs/frameworks
-* and works with angularJS.
-*
-* The rule is the following :
-*
-* The components will interact on the element where it has been declared and on their children, it will change some css properties, so you
-* must use css class to decorate your components and children but never use directly the style attribute as it could be overridden.
-*
-* Don't do this : <button style="height:32px"></button>
-*   But do this : <button class="h32"></button>
-*
-* You can include ui.animator which include all their sub animator components like this : angular.module('myApp', ['ui.animator'])
-* OR
-* You can include sub animator components by type like this :  angular.module('myApp', ['ui.animator.spinner'])
-* OR
-* You can include one by one animator component like this :  angular.module('myApp', ['ui.animator.spinner.spinButtonOn'])
-*
-* */
-*   But do this : <button class="h32"></button>
-*
-* You can include ui.animator which include all their sub animator components like this : angular.module('myApp', ['ui.animator'])
-* OR
-* You can include sub animator components by type like this :  angular.module('myApp', ['ui.animator.spinner'])
-* OR
-* You can include one by one animator component like this :  angular.module('myApp', ['ui.animator.spinner.spinButtonOn'])
-*
-* */
 
 angular.module('ui.animator', ['ui.animator.spinner']);
 
