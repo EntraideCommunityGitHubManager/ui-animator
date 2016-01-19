@@ -190,3 +190,6 @@ angular.module('ui.animator.spinner.spinButtonOn',[])
 })();
 
 </code></pre>
+http://www.meteofrance.com/previsions-meteo-france/martinique/972
+http://www.meteodesiles-meteodescyclones.net/pages/les-images-satellites-et-les-images-radars.html
+http://www.meteofrance.gp/previsions-meteo-antilles-guyane/animation/satellite/antilles-guyane
